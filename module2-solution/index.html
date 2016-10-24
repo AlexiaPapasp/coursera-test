@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Module2 solution</title>
-  <link rel="stylesheet" href="mod2.css">
+  <link rel="css" href="mod2.css">
 
 <style>
   * {
@@ -11,7 +11,7 @@
   }
 
   h1 {
-    color: green;
+    /*color: green;*/
     text-align: center;
     font-family: helvetica;
 
@@ -35,7 +35,7 @@
     padding: 30px 20px 10px 20px;
   }
 
-  h3 {
+  #title-region {
     color: yellow;
     background-color: blue;
     border: 2px solid black;
@@ -46,14 +46,14 @@
     float: right;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     .col-lg-1 {
       float: left;
       width: 33.33%;
     }
   }
 
-  @media (min-width: 950px) and (max-width: 1199px) {
+  @media (min-width: 768px) and (max-width: 991px) {
     .col-md-1, .col-md-2 {
       float: left;
     }
@@ -65,7 +65,7 @@
     }
   }
 
-  @media (max-width: 94) {
+  @media (max-width: 767px) {
     .col-xs-1 {
       float: left;
       width: 100%
@@ -80,7 +80,7 @@
   <h1>Our dogs</h1>
   <div class="frame col-lg-1 col-md-1 col-xs-1">
     <div class="box">
-      <h3>Labrador</h3>
+      <section id="title-region">Labrador</section>
       <p>The Labrador Retriever, also Labrador, is a type of retriever-gun dog. The Labrador is one of the most popular breeds of dog in the United Kingdom and the United States.
       A favourite disability assistance breed in many countries, Labradors are frequently trained to aid the blind, those who have autism, to act as a therapy dog and perform screening and detection work for law enforcement and other official agencies. They are prized as sporting and hunting dogs. 
      </p>
@@ -89,14 +89,14 @@
 
   <div class="frame col-lg-1 col-md-1 col-xs-1">
     <div class="box">
-      <h3>Rottweiler</h3>
+      <section id="title-region">Rottweiler</section>
       <p>The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large.The dogs were known in German as Rottweiler Metzgerhund, meaning Rottweil butchers' dogs, because one of their uses was to herd livestock and pull carts laden with butchered meat to market. This continued until the mid-19th century when railways replaced droving for herding. Rottweilers are now used as search and rescue dogs, as guide dogs for the blind, as guard dogs and police dogs.</p>
     </div>
   </div>
 
   <div class="frame col-lg-1 col-md-2 col-xs-1">
     <div class="box">
-      <h3>Beagle</h3>
+      <section id="title-region">Beagle</section>
       <p>The Beagle is a breed of small-sized hound, similar in appearance to the much larger foxhound. The Beagle is a scent hound, developed primarily for hunting hare. With a great sense of smell and their tracking instinct, the Beagle is employed as detection dog for prohibited agricultural imports and foodstuffs in quarantine around the world. The Beagle is intelligent but single-minded. It is a popular pet due to its size, good temper, and lack of inherited health problems.</p>
     </div>
   </div>
